@@ -1,47 +1,21 @@
-body{
+body {
     background-color: blue;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px;
+    margin: 0;
 }
-h1{
-    color:bisque;
+
+h1 {
+    color: bisque;
     font-size: 40px;
 }
-p{
-font-size: 25px;
+
+p {
+    font-size: 25px;
 }
-header{
-    border-bottom: solid 3x color(srgb red green blue);
+
+header {
+    border-bottom: solid 3px blue; /* Corrigido: 3x → 3px e color() removido */
     margin: 2px;
     padding: 10px;
     color: blue;
-}
-.chamada{
-    background-color: aliceblue;
-    padding-bottom: 80px;
-    padding-top: 80px
-    display: flex;
-    justify-content : center;
-}
-.chamada texto {
-    margin-right: 8px;
-}
-img {
-    height: 200px;
-}
-.categoria - vídeo {
-display: flex;
-overflow-x: auto;
-gap: 15px;
-padding : 20px;
-scroll-behavior: smooth;
-}
-.categoria-vídeo::-webkit-scrollbar-thumb{
-    background-color: blue;
-    border-radius: 4px;
-}
-.categoria{
-    padding-left: 20px;
-    padding-right: 20px;
-}
